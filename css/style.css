@@ -1,0 +1,40 @@
+.navbar,.footer{
+    width: 100%;
+    min-height: 100px;
+    background-color: rgba(17, 235, 75, 0.466);
+    float: left;
+}
+.footer{
+    margin-top: 15px;
+}
+.navbar{
+    margin-bottom: 15px;
+}
+.nav{
+    width: 100%;
+    min-height: 500px;
+    background-color: rgb(50, 241, 24) ;
+    float: left;
+}
+.content{
+    width: 100%;
+    min-height: 500px;
+    background-color: rgb(153, 119, 119) ;
+    float: left;
+}
+.side{
+    width: 100%;
+    min-height: 500px;
+    background-color: rgb(50, 241, 24) ;
+    float: left;
+}
+
+@media only screen and (max-width: 768px){
+    .nav, .content, .side{
+        min-height: 150px;
+    }
+
+    .content{
+        margin: 15px 0;
+    }
+}
